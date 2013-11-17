@@ -1,0 +1,15 @@
+[core]
+	autocrlf = input
+	editor = vim
+[user]
+	name = Mohammed Tangestani
+	email = tangestani@gmail.com
+[credential]
+[tool]
+[color]
+	ui = true
+[push]
+	default = simple
+[merge]
+[credential]
+	helper = osxkeychain
