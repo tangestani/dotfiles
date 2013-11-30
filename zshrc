@@ -40,7 +40,7 @@ ZSH_THEME="robbyrussell"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(brew git virtualenvwrapper vi-mode)
+plugins=(git sublime tmux virtualenvwrapper vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -49,3 +49,7 @@ export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:/
 
 # Custom aliases
 alias zshconfig="vim ~/.zshrc && source ~/.zshrc"
+
+# Emacs style incremental search
+bindkey -M viins '^R' history-incremental-search-backward
+bindkey -M vicmd '^R' history-incremental-search-backward
