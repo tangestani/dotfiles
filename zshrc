@@ -37,6 +37,11 @@ ZSH_THEME="robbyrussell"
 # much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 
+# Uncomment following line if you want to show the command execution time stamp
+# in the history command output. The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|
+# yyyy-mm-dd
+HIST_STAMPS="dd.mm.yyyy"
+
 # Automatically start tmux
 ZSH_TMUX_AUTOSTART="true"
 
