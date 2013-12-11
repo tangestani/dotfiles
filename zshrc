@@ -37,6 +37,9 @@ ZSH_THEME="robbyrussell"
 # much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 
+# Automatically start tmux
+ZSH_TMUX_AUTOSTART="true"
+
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
