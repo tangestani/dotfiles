@@ -1,14 +1,5 @@
 #!/usr/bin/env bash
 
-if ! hash git &> /dev/null; then
-  echo "Install git first"
-  exit 1
-fi
-if ! hash zsh &> /dev/null; then
-  echo "Install zsh first"
-  exit 1
-fi
-  
 echo "Installing pathogen..."
 
 mkdir -p ~/.vim/autoload ~/.vim/bundle &&\
