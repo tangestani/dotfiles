@@ -52,9 +52,6 @@ plugins=(brew git sublime tmux vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
-# Customize to your needs...
-export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:/opt/X11/bin
-
 # Custom aliases
 alias zshconfig="vim ~/.zshrc && source ~/.zshrc"
 
