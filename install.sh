@@ -16,4 +16,9 @@ echo "- Enable copy to clipboard on selection."
 echo "- Disable draw bold text in bright colors."
 echo "- Set terminal emulation to xterm-256color."
 
-exec ./link.sh
+echo "Linking dotfiles..."
+cd $(dirname $0)
+for file in $(ls | cat | egrep -v '\.(sh|md)$'); do
+  ln -sfv $(pwd)/${file} ~/.${file}
+done
+
