@@ -52,6 +52,9 @@ plugins=(brew git sublime tmux vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
+# Environment variables
+export EDITOR="vim"
+
 # Custom aliases
 alias zshconfig="vim ~/.zshrc && source ~/.zshrc"
 
