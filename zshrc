@@ -53,6 +53,7 @@ plugins=(brew colored-man git sublime tmux vi-mode)
 source $ZSH/oh-my-zsh.sh
 
 # Environment variables
+export PATH=$PATH:$HOME/.rvm/bin
 export EDITOR="vim"
 
 # Custom aliases
