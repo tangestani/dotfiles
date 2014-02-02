@@ -69,3 +69,6 @@ bindkey -M vicmd '^R' history-incremental-search-backward
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Developer
 source /usr/local/bin/virtualenvwrapper.sh
+
+# Load RVM
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
