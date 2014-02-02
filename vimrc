@@ -17,7 +17,7 @@ colorscheme solarized   " use solarized colors
 set background=dark     " enable for dark terminals
 set nowrap              " dont wrap lines
 set scrolloff=2         " 2 lines above/below cursor when scrolling
-set number              " show line numbers
+"set number              " show line numbers
 set showmatch           " show matching bracket (briefly jump)
 set showmode            " show mode in status bar (insert/replace/...)
 set showcmd             " show typed command in status bar
